@@ -1,3 +1,5 @@
+document.querySelector('body').style.backgroundColor = 'gray'; 
+
 let total = 0
 
 document.querySelector('#pumpkin').addEventListener('click', makeZero)
@@ -24,3 +26,6 @@ function sub2() {
   total = total - 2
   document.querySelector('#placeToPutResult').innerHTML = total
 }
+
+
+
